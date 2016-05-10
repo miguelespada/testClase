@@ -185,7 +185,7 @@ DEPENDENCIES
   http
   jbuilder (~> 2.0)
   jquery-rails
-  mongoid (~> 4.0.0)
+  mongoid
   mongoid-enum
   rails (= 4.1.9)
   redis-rails
