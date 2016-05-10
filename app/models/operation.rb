@@ -1,9 +1,8 @@
 
 class Operation
   include Mongoid::Document
-  include Mongoid::Enum
 
-  field :op, type: [:add, :div, :mult, :subs]
+  field :op, type: String
   field :op1, type: Integer
   field :op2, type: Integer
   field :t0, type: Time
